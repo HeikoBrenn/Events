@@ -1,2 +1,2 @@
 # Events
-Here you find presentations and other materials
+## PowerShell Saturday Paris
