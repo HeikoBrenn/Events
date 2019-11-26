@@ -1,3 +1,7 @@
+Experts Live EU presentation "Make PowerShell A Real Solution In 5 Steps":
+
+
+
 Product review by Adam Bertram:
 
 https://adamtheautomator.com/scriptrunner-bringing-powershell-to-devops/
