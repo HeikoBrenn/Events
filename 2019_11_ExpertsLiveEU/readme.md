@@ -1,5 +1,6 @@
 Experts Live EU presentation "Make PowerShell A Real Solution In 5 Steps":
 
+https://github.com/HeikoBrenn/Events/blob/master/2019_11_ExpertsLiveEU/2019_ExpertsLiveEU_ScriptRunner_MakePowerShellARealSolutionIn5Steps.pdf
 
 
 Product review by Adam Bertram:
