@@ -4,3 +4,5 @@ Teams module overview: https://docs.microsoft.com/en-us/microsoftteams/teams-pow
 
 Custom Teams reports: https://practical365.com/teams-2/create-custom-reports-using-the-updated-teams-powershell-module/
 
+Ready-to-use PowerShell scripts: https://github.com/scriptrunner/ActionPacks
+
