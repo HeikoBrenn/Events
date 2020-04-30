@@ -1,6 +1,6 @@
 ﻿#START OFFICE 365 SESSION
 
-$UserCredential = Get-Credential hbrenn@scriptrunner1.onmicrosoft.com
+$UserCredential = Get-Credential user@domain.com
 Connect-MsolService -Credential $UserCredential
 
 
