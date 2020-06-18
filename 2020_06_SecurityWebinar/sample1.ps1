@@ -1,0 +1,1 @@
+﻿Get-ExecutionPolicy -list
