@@ -54,10 +54,34 @@ foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.GroupId -User angus.y
 $Teams = Get-Team
 foreach ($Team in $Teams) { Add-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member}
 
-#Top 10 Teams Owner/Member
+# Top 10 Teams Owner/Member
 $Teams = Get-Team
 $Top10Owners = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Member"} } 
 ($Top10Owners | Group-Object User -NoElement) | Format-Table -AutoSize | Select-Object -First 10
+
+# Summary of my Teams
+$myteams = Get-Team
+$myteamssummary = @()
+ 
+foreach ($team in $myteams) {
+ 
+    $members  = Get-TeamUser -GroupId $team.GroupId
+    $owner    = Get-TeamUser -GroupId $team.GroupId -Role Owner
+    $channels = Get-TeamChannel -GroupId $team.GroupId 
+    $myteamssummary += New-Object -TypeName PSObject -Property ([ordered]@{
+ 
+        'Team'     = $team.DisplayName
+        'GroupId'  = $team.GroupId
+        'Owner'    = $owner.User
+        'Members'  = $members.user -join "`r`n"
+        'Channels' = $channels.displayname -join "`r`n"
+     
+        })
+}
+
+Write-Output $myteamssummary |Out-GridView
+
+##########
 
 
 
