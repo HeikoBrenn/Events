@@ -36,11 +36,16 @@ Write-Host Total Teams :: $Teams.count -ForegroundColor Green
 Write-Host Total Channels :: $ChannelCount -ForegroundColor Green
 
 $List
-#
-# Remove a specific channel from all Teams
-$Teams = Get-Team
-foreach ($Team in $Teams) { Get-TeamChannel -GroupId $Team.GroupId -DisplayName "Catering" }
 
+#Show a specific channels in all Teams
+$Teams = Get-Team
+$List = foreach ($Team in $Teams) { Get-TeamChannel -GroupId $Team.GroupId | Where-Object {$_.Displayname -Like "Venues"} |  Select-Object @{n='TeamName';e={$Team.DisplayName} }, @{n='ChannelName';e={$_.DisplayName} }, Description  }
+$ChannelCount = ($List.DisplayName).Count
+
+Write-Host Total Teams :: $Teams.count -ForegroundColor Green
+Write-Host Total Channels :: $ChannelCount -ForegroundColor Green
+
+$List
 
 # Remove a specific channel from all Teams
 $Teams = Get-Team
@@ -48,10 +53,10 @@ foreach ($Team in $Teams) { Remove-TeamChannel  -GroupId $Team.GroupId -DisplayN
 
 # Remove a specific user from all Teams
 $Teams = Get-Team
-foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member}
+foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.Group
+$Teams = Get-TeamId -User angus.young@kraichgau-touristik.de -Role Member}
 
 # Add a specific user to all Teams
-$Teams = Get-Team
 foreach ($Team in $Teams) { Add-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member}
 
 # Top 10 Teams Owner/Member
