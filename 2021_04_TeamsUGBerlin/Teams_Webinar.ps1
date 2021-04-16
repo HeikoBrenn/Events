@@ -65,6 +65,7 @@ $Top10Owners = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId |
 ($Top10Owners | Group-Object User -NoElement) | Format-Table -AutoSize | Select-Object -First 10
 
 # Summary of my Teams
+# Originally from https://sid-500.com/2020/12/14/microsoft-teams-list-all-teams-team-members-and-team-channels/
 $myteams = Get-Team
 $myteamssummary = @()
  
