@@ -1,3 +1,10 @@
+Get in touch with me for more information: <br />
+Heiko.brenn@scriptrunner.com<br />
+https://twitter.com/heikobrenn<br />
+https://linkedin.com/in/heikobrenn<br />
+https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
+
+
 
 You don't know how to start your PowerShell journey or you are looking for some scripting inspiration?
 Take a look at our ScriptRunner ActionPacks on github.
