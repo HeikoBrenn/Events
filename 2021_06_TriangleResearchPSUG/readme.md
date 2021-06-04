@@ -4,6 +4,9 @@ https://twitter.com/heikobrenn<br />
 https://linkedin.com/in/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
+The session presentation:</br>
+https://github.com/HeikoBrenn/Events/blob/master/2021_06_TriangleResearchPSUG/ScriptRunner_MakePowerShellARealSolutionIn5Steps_ResearchTrianglePSUG.pdf
+
 
 
 You don't know how to start your PowerShell journey or you are looking for some scripting inspiration?
