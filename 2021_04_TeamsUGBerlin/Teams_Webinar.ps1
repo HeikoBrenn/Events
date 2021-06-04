@@ -47,16 +47,21 @@ Write-Host Total Channels :: $ChannelCount -ForegroundColor Green
 
 $List
 
+# Show Guest users in all Teams
+$Teams = Get-Team
+foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role, @{n='TeamName';e={$Team.DisplayName} } }
+
+
 # Remove a specific channel from all Teams
 $Teams = Get-Team
 foreach ($Team in $Teams) { Remove-TeamChannel  -GroupId $Team.GroupId -DisplayName "Catering"}
 
 # Remove a specific user from all Teams
 $Teams = Get-Team
-foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.Group
-$Teams = Get-TeamId -User angus.young@kraichgau-touristik.de -Role Member}
+foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member }
 
 # Add a specific user to all Teams
+$Teams = Get-Team
 foreach ($Team in $Teams) { Add-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member}
 
 # Top 10 Teams Owner/Member
