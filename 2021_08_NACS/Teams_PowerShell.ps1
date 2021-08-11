@@ -131,6 +131,7 @@ Set-Team -GroupId 33a5febc-9087-4adf-b684-4d12477edf01 -AllowUserDeleteMessages 
 Set-Team -GroupId 080e8d6f-e931-4bf6-95a7-afff755df127 -AllowGiphy $false
 
 Set-TeamArchivedState -GroupId e9957be5-547c-4a5e-8ea1-fafd070509b7 -Archived:$true
+Get-Team | Where-Object Archived -EQ $true
 
 Remove-Team -GroupId 59d04b2f-9f79-4ee3-984f-bde6025a9cbd
 
