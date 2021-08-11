@@ -5,7 +5,7 @@ https://linkedin.com/in/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2021_06_TriangleResearchPSUG/ScriptRunner_MakePowerShellARealSolutionIn5Steps_ResearchTrianglePSUG.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2021_08_NACS/ScriptRunner_UnlockThePowerOfPowerShell_NACS2021.pdf
 
 
 <strong>Ready-to-use PowerShell Scripts</strong> <br />
