@@ -20,11 +20,15 @@ https://www.youtube.com/watch?v=D62bJ71hUaY
 ## 2020/12: Session for the New York PowerShell User Group 
 https://www.youtube.com/watch?v=3jbuey3kiNE
 
+## 2020/12: Session for the Brisbane Infrastructure DevOps User Group 
+https://youtu.be/v1XQbrrvksc?t=684
+
 ## 2020/09: Session at the CloudEight Summit
 https://www.youtube.com/watch?v=lKsPplPeq_c
 
 ## 2020/09: Session for the SoCol PowerShell User Group 
 https://www.youtube.com/watch?v=48tkyv5BE4Q
+
 
 
 
