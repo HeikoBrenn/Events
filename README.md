@@ -26,7 +26,7 @@ https://youtu.be/v1XQbrrvksc?t=684
 ## 2020/09: Session at the CloudEight Summit
 https://www.youtube.com/watch?v=lKsPplPeq_c
 
-## 2020/09: Session for the SoCol PowerShell User Group 
+## 2020/09: Session for the SoCal PowerShell User Group 
 https://www.youtube.com/watch?v=48tkyv5BE4Q
 
 
