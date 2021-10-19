@@ -11,6 +11,9 @@ https://www.youtube.com/watch?v=0ZHLHd2yNM4
 ## 2021/03: Session for the Scottish Summit
 https://www.youtube.com/watch?v=D62bJ71hUaY
 
+## 2020/12: Session for the New York PowerShell User Group 
+https://www.youtube.com/watch?v=3jbuey3kiNE
+
 ## 2020/09: Session for the SoCol PowerShell User Group 
 https://www.youtube.com/watch?v=48tkyv5BE4Q
 
