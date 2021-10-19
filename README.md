@@ -2,14 +2,13 @@
 ## 2021/10: Session for the Brisbane Infrastructure DevOps User Group
 https://youtu.be/c9VQDvJ9IGQ?t=1190
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c9VQDvJ9IGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+## 2021/09: Session for the Research Triagle PowerShell Users Group
+https://www.youtube.com/watch?v=XXUubsF-Gtc
 
-## Session for SoCal PowerShell User Group
-https://github.com/HeikoBrenn/Events/tree/master/2020_09_SoCal_Meetup
+## 2021/03: Session for the PowerShell User Group Sweden
+https://www.youtube.com/watch?v=0ZHLHd2yNM4
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
+
+
+
