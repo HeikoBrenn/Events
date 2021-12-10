@@ -1,4 +1,8 @@
-# My Session Recordings (latest first)
+# My Session Recordings
+Here you find a list of my recorded session.
+## 2021/12: Session for the SoCal PowerShell User Group
+https://www.youtube.com/watch?v=vkrHkxvH6EQ
+
 ## 2021/10: Session for the Brisbane Infrastructure DevOps User Group
 https://youtu.be/c9VQDvJ9IGQ?t=1190
 
