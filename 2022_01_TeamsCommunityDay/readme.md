@@ -5,7 +5,7 @@ https://linkedin.com/in/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2021_12_SoCal_PS_UG/ScriptRunner_SoCal_2021_12.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_01_TeamsCommunityDay/ScriptRunner_Teams_CommunityDay_2022.pdf
 
 
 <strong>Ready-to-use PowerShell Scripts</strong> <br />
