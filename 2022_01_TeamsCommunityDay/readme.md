@@ -7,6 +7,11 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 <strong>The session presentation:</strong></br>
 https://github.com/HeikoBrenn/Events/blob/master/2022_01_TeamsCommunityDay/ScriptRunner_Teams_CommunityDay_2022.pdf
 
+<strong>Get your Teams PowerShell Cheat Sheet</strong> <br />
+Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
+https://lp.scriptrunner.com/en/teams-cheat-sheet
+![alt text](https://lp.scriptrunner.com/hubfs/teams-cheat-sheet-lupe-1-1.png?width=1140&height=750&name=Mockup-Poster-500x760.png "Teams Cheet Sheat")
+
 
 <strong>Ready-to-use PowerShell Scripts</strong> <br />
 You don't know how to start your PowerShell journey or you are looking for some scripting inspiration?
