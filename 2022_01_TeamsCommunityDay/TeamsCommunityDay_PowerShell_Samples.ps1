@@ -36,7 +36,8 @@ Get-Team | Where-Object Archived -EQ $true |Set-TeamArchivedState -Archived $fal
 Get-Team -DisplayName wfh
 
 #Show all Teams where a specific user is member or owner
-Get-Team -user iggy.pop@kraichgau-touristik.de 
+Get-Team -user iggy.pop@kraichgau-touristik.de | Tee-Object -Variable myuser
+$myuser.count
 (Get-Team -user iggy.pop@kraichgau-touristik.de).count
 
 #Show all Teams and all Teams users 
@@ -104,7 +105,8 @@ $List
 # Show Guest users in all Teams
 $Teams = Get-Team
 $result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role, @{n='TeamName';e={$Team.DisplayName} }}
-#$result |Export-Csv .\GuestsInTeams.txt
+$result | Export-Csv .\GuestsInTeams.txt
+Get-Content .\GuestsInTeams.txt
 #endregion
 
 #region GET THE PARTY STARTED - P!NK
