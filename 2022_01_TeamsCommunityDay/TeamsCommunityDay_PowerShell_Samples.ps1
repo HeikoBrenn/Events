@@ -110,7 +110,7 @@ Get-Content .\GuestsInTeams.txt
 
 # Remove all Guest users from all Teams
 $Teams = Get-Team
-$result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role,@{n='User2';e={$_.User.split('#')[0] -replace '_','@' }}, @{n='Id';e={$Team.GroupId}},@{n='TeamName';e={$Team.DisplayName} }}
+$result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role,@{n='User2';e={$_.User.split('#')[0]<#delete all characters after first"#" #> -replace '_','@' <#replace "_" with "@" #> }}, @{n='Id';e={$Team.GroupId}},@{n='TeamName';e={$Team.DisplayName} }}
 $result | Export-Csv .\GuestsInTeams2.txt
 Get-Content .\GuestsInTeams2.txt
 
