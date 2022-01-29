@@ -9,7 +9,8 @@ https://github.com/HeikoBrenn/Events/blob/master/2022_01_TeamsCommunityDay/Scrip
 
 <strong>Get your Teams PowerShell Cheat Sheet</strong> <br />
 Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
-https://lp.scriptrunner.com/en/teams-cheat-sheet
+<br>https://lp.scriptrunner.com/en/teams-cheat-sheet<br>
+
 ![alt text](https://lp.scriptrunner.com/hubfs/teams-cheat-sheet-lupe-1-1.png?width=1140&height=750&name=Mockup-Poster-500x760.png "Teams Cheet Sheat")
 
 
@@ -20,7 +21,9 @@ There are more than 1.600 scripts ready-to-use.
 https://github.com/scriptrunner/ActionPacks
 
 <strong>PowerShell Cheat Sheet</strong> <br />
-Get our PowerShell cheat sheet poster for your (home) office wall at https://lp.scriptrunner.com/en/powershell-poster
+Get our PowerShell cheat sheet poster for your (home) office wall at
+<br>https://lp.scriptrunner.com/en/powershell-poster
+
 ![alt text](https://lp.scriptrunner.com/hs-fs/hubfs/Mockup-Poster-500x760.png?width=1140&height=750&name=Mockup-Poster-500x760.png "PowerShell Poster")
 
 <strong>PowerShell Security eBook</strong> <br />
