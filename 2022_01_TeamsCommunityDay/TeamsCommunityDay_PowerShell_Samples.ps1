@@ -243,12 +243,24 @@ Grant-CsUserPolicyPackage -Identity angus.young@kraichgau-touristik.de -PackageN
 
 #region SHOW ME THE WAY - PETER FRAMPTON
 # Get help and additional ressources
-Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview" #Microsoft Teams PowerShell Overview
-Start-Process "https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps" #Microsoft Teams PowerShell Module Reference
-Start-Process "https://www.powershellgallery.com/packages/MicrosoftTeams" #Microsoft Teams PowerShell Module on the PowerShell Gallery
-Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-managing-teams" #Manage Teams with PowerShell
-Start-Process "https://www.scriptrunner.com/en/blog/teams-webhooks-via-powershell-part-1" #Use Teams Webhooks with PowerShell#
-Start Process "https://lp.scriptrunner.com/en/teams-cheat-sheet" #8-page Cheat Sheet for Microsoft Teams PowerShell Module#
+
+#Microsoft Teams PowerShell Overview
+Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview"
+
+#Microsoft Teams PowerShell Module Reference
+Start-Process "https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps"
+
+#Microsoft Teams PowerShell Module on the PowerShell Gallery
+Start-Process "https://www.powershellgallery.com/packages/MicrosoftTeams"
+
+#Manage Teams with PowerShell
+Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-managing-teams"
+
+#Use Teams Webhooks with PowerShell
+Start-Process "https://www.scriptrunner.com/en/blog/teams-webhooks-via-powershell-part-1"
+
+#8-page Cheat Sheet for Microsoft Teams PowerShell Module
+Start Process "https://lp.scriptrunner.com/en/teams-cheat-sheet"
 #endregion
 
 #Archive Teams
