@@ -108,11 +108,17 @@ $result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | wher
 $result | Export-Csv .\GuestsInTeams.txt
 Get-Content .\GuestsInTeams.txt
 
-# Remove Guest users from all Teams
-$Guests = Im
+# Remove all Guest users from all Teams
 $Teams = Get-Team
-foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.GroupId -User "hbrenn@web.de" -Role Member }
+$result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role,@{n='User2';e={$_.User.split('#')[0] -replace '_','@' }}, @{n='Id';e={$Team.GroupId}},@{n='TeamName';e={$Team.DisplayName} }}
+$result | Export-Csv .\GuestsInTeams2.txt
+Get-Content .\GuestsInTeams2.txt
 
+$teams = import-csv .\GuestsInTeams2.txt
+Foreach($team in $teams)
+{
+Remove-TeamUSer -GroupId $team.Id -User $team.user2 -Role Member
+}
 # Disable general Guest access
 Set-CsTeamsClientConfiguration -AllowGuestUser $False -Identity Global
 
