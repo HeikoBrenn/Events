@@ -21,6 +21,7 @@ Disconnect-MicrosoftTeams
 #endregion
 
 #region I WANT IT ALL - QUEEN
+# Let's take a look at the current state
 # Show Teams
  
 Get-Team
