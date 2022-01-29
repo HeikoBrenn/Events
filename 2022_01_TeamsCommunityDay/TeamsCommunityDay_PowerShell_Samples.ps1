@@ -260,7 +260,10 @@ Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-
 Start-Process "https://www.scriptrunner.com/en/blog/teams-webhooks-via-powershell-part-1"
 
 #8-page Cheat Sheet for Microsoft Teams PowerShell Module
-Start Process "https://lp.scriptrunner.com/en/teams-cheat-sheet"
+Start-Process "https://lp.scriptrunner.com/en/teams-cheat-sheet"
+
+#Ready-to-use PowerShell scripts for Microsoft Teams use cases
+Start-Process "https://github.com/scriptrunner/ActionPacks/tree/master/O365/MS-Teams"
 #endregion
 
 #Archive Teams
