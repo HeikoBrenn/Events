@@ -107,6 +107,10 @@ $Teams = Get-Team
 $result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role, @{n='TeamName';e={$Team.DisplayName} }}
 $result | Export-Csv .\GuestsInTeams.txt
 Get-Content .\GuestsInTeams.txt
+
+# Disable general Guest access
+Set-CsTeamsClientConfiguration -AllowGuestUser $False -Identity Global
+
 #endregion
 
 #region GET THE PARTY STARTED - P!NK
