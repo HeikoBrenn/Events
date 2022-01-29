@@ -166,7 +166,7 @@ foreach ($Team in $Teams) { Remove-Team -GroupId $Team.GroupId}
 Remove-Team -GroupId 59d04b2f-9f79-4ee3-984f-bde6025a9cbd
 #endregion
 
-#region PUSH IT - SALT'N'PEPPER
+#region MESSAGE IN A BOTTLE - THE POLICE
 # Push messages to Teams channels
 $WebhookURL = 'https://scriptrunner1.webhook.office.com/webhookb2/87973ca6-1d50-42dc-b8a4-f20cfd11a45c@30f65c4b-8dc9-4f07-912a-7fa0bf6715b9/IncomingWebhook/fdc24883b93149f5bb967326ca440ab9/aedbe5f7-f6ad-48db-8b1f-cb3a79737494'
 $Message = "Please be kind and stay healthy"
