@@ -241,7 +241,13 @@ Get-CsPolicyPackage
 Grant-CsUserPolicyPackage -Identity angus.young@kraichgau-touristik.de -PackageName Frontline_manager
 #endregion
 
+#region SHOW ME THE WAY - PETER FRAMPTON
+# Get help and additional ressources
+Start-Process "https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview" #Microsoft Teams PowerShell Overview
+Start-Process "https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps" #Microsoft Teams PowerShell Module Reference
 
+
+#endregion
 
 #Archive Teams
 Set-TeamArchivedState -GroupId 33a5febc-9087-4adf-b684-4d12477edf01 -Archived:$true
