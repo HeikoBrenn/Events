@@ -11,7 +11,9 @@ Get-Module -Name MicrosoftTeams* -ListAvailable | select Name,Version,Path
 get-command -type Cmdlet -module MicrosoftTeams
 get-command -module MicrosoftTeams
 get-command -module MicrosoftTeams |Measure-Object
+#endregion
 
+#region CONNECTED - STEREO MC'S
 # Connect to Teams
 $cred = Get-Credential
 Connect-MicrosoftTeams -Credential $cred
