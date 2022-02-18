@@ -5,7 +5,7 @@ https://linkedin.com/in/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_02_PSUG_Inn_Salzach/ScriptRunner_Session_PSUG_Inn_Salzach.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_02_WelshAzureUserGroup/ScriptRunner_Session_WelshAzureUG.pdf
 
 <strong>Get your Teams PowerShell Cheat Sheet</strong> <br />
 Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
