@@ -7,6 +7,12 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 <strong>The session presentation:</strong></br>
 https://github.com/HeikoBrenn/Events/blob/master/2022_02_WelshAzureUserGroup/ScriptRunner_Session_WelshAzureUG.pdf
 
+<strong>PowerShell Cheat Sheet</strong> <br />
+Get our PowerShell cheat sheet poster for your (home) office wall at
+<br>https://lp.scriptrunner.com/en/powershell-poster
+
+![alt text](https://lp.scriptrunner.com/hs-fs/hubfs/Mockup-Poster-500x760.png?width=1140&height=750&name=Mockup-Poster-500x760.png "PowerShell Poster")
+
 <strong>Get your Teams PowerShell Cheat Sheet</strong> <br />
 Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
 <br>https://lp.scriptrunner.com/en/teams-cheat-sheet<br>
@@ -20,11 +26,6 @@ Take a look at our ScriptRunner ActionPacks on github.
 There are more than 1.600 scripts ready-to-use. 
 https://github.com/scriptrunner/ActionPacks
 
-<strong>PowerShell Cheat Sheet</strong> <br />
-Get our PowerShell cheat sheet poster for your (home) office wall at
-<br>https://lp.scriptrunner.com/en/powershell-poster
-
-![alt text](https://lp.scriptrunner.com/hs-fs/hubfs/Mockup-Poster-500x760.png?width=1140&height=750&name=Mockup-Poster-500x760.png "PowerShell Poster")
 
 <strong>PowerShell Security eBook</strong> <br />
 Do you want to learn more about PowerShell security? Get our PowerShell security ebook. It covers all built-in security options in PowerShell. 
