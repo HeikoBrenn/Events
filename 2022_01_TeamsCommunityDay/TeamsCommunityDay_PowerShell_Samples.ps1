@@ -1,4 +1,4 @@
-﻿
+
 #region COMPUTERLIEBE (DIE MODULE SPIEL'N VERRÜCKT)
 #COMPUTERLOVE (THE MODULES ARE GOING CRAZY)
 # PowerShell logistics
@@ -11,9 +11,7 @@ Get-Module -Name MicrosoftTeams* -ListAvailable | select Name,Version,Path
 get-command -type Cmdlet -module MicrosoftTeams
 get-command -module MicrosoftTeams
 get-command -module MicrosoftTeams |Measure-Object
-#endregion
 
-#region CONNECTED - STEREO MC'S
 # Connect to Teams
 $cred = Get-Credential
 Connect-MicrosoftTeams -Credential $cred
@@ -23,24 +21,39 @@ Disconnect-MicrosoftTeams
 #endregion
 
 #region I WANT IT ALL - QUEEN
-# Let's take a look at the current state
-# Show Teams
- 
-Get-Team
+#Show all Teams
+Get-Team 
+
+
+
+#Show all Teams with specific displayname
+
+Get-Team | Where-Object Displayname -Like Test* #|Set-TeamArchivedState -Archived $true
+
+Get-Team | Where-Object {$_.Displayname -Like "Test*" -AND $_.Archived -EQ $true } #|Set-TeamArchivedState -Archived $false
+
+
 
 #Show all archived Teams
-Get-Team | Where-Object Archived -EQ $true 
+Get-Team | Where-Object Archived -EQ $true
+
+Get-Team | Where-Object Archived -EQ $true
 
 #Show all archived Teams and un-archive them
 Get-Team | Where-Object Archived -EQ $true |Set-TeamArchivedState -Archived $false
 
+
+
 #Show all Teams with specific Names
 Get-Team -DisplayName wfh
 
+
+
 #Show all Teams where a specific user is member or owner
-Get-Team -user iggy.pop@kraichgau-touristik.de | Tee-Object -Variable myuser
-$myuser.count
+Get-Team -user iggy.pop@kraichgau-touristik.de 
 (Get-Team -user iggy.pop@kraichgau-touristik.de).count
+
+
 
 #Show all Teams and all Teams users 
 Get-team | get-teamuser
@@ -49,10 +62,14 @@ Get-TeamUser -GroupId 350c0cd9-1515-4ab9-b601-50d98ead08df
 
 Get-TeamUser -GroupId 350c0cd9-1515-4ab9-b601-50d98ead08df -Role owner
 
+
+
 # Top 10 Teams users (Owner/Member)
 $Teams = Get-Team
 $Top10Owners = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Member"} } 
 ($Top10Owners | Group-Object User -NoElement) | Format-Table -AutoSize | Select-Object -First 10
+
+
 
 # Summary of my Teams
 $myteams = Get-Team
@@ -107,38 +124,25 @@ $List
 # Show Guest users in all Teams
 $Teams = Get-Team
 $result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role, @{n='TeamName';e={$Team.DisplayName} }}
-$result | Export-Csv .\GuestsInTeams.txt
-Get-Content .\GuestsInTeams.txt
-
-# Remove all Guest users from all Teams
-$Teams = Get-Team
-$result = foreach ($Team in $Teams) { Get-TeamUser -GroupId $Team.GroupId | where {$_.Role -eq "Guest"} | Select User, Role,@{n='User2';e={$_.User.split('#')[0]<#delete all characters after first"#" #> -replace '_','@' <#replace "_" with "@" #> }}, @{n='Id';e={$Team.GroupId}},@{n='TeamName';e={$Team.DisplayName} }}
-$result | Export-Csv .\GuestsInTeams2.txt
-Get-Content .\GuestsInTeams2.txt
-
-$teams = import-csv .\GuestsInTeams2.txt
-Foreach($team in $teams)
-{
-Remove-TeamUSer -GroupId $team.Id -User $team.user2 -Role Member
-}
-# Disable general Guest access
-Set-CsTeamsClientConfiguration -AllowGuestUser $False -Identity Global
-
+$result |Export-Csv .\GuestsInTeams.txt
 #endregion
 
 #region GET THE PARTY STARTED - P!NK
 
 # Add a specific user to all Teams
-$Teams = Get-Team
+$Teams = Get-Team 
 foreach ($Team in $Teams) { Add-TeamUser -GroupId $Team.GroupId -User angus.young@kraichgau-touristik.de -Role Member}
 
 
+
 # Add a specific Channel  to all Teams
-$Teams = Get-Team
-foreach ($Team in $Teams) { New-TeamChannel -GroupId $Team.GroupId -DisplayName "NewChannel_TCD_001"}
+$Teams = Get-Team|Where-Object
+foreach ($Team in $Teams) { New-TeamChannel -GroupId $Team.GroupId -DisplayName "NewChannel_Webinar_2022_02"}
+
+
 
 # Create a specific Team
-New-Team -DisplayName "TCD2022_001" -Description "Awesome Community Event" -Visibility Public -AllowGiphy $false -AllowAddRemoveApps $false -AllowCreatePrivateChannels $false
+New-Team -DisplayName "TCD2022_001" -Description "Awesome Community Event" -Visibility Public -AllowGiphy $false -AllowAddRemoveApps $false -AllowCreatePrivateChannels $false -
 
 
 #Create multiple Teams 
@@ -171,7 +175,8 @@ New-TeamChannel -GroupId $group.GroupId -DisplayName "Ticket Sales"
 #region SEEK AND DESTROY - METALLICA
 # Remove a specific channel from all Teams (soft deleted)
 $Teams = Get-Team
-foreach ($Team in $Teams) { Remove-TeamChannel  -GroupId $Team.GroupId -DisplayName "testtest"}
+foreach ($Team in $Teams) { Remove-TeamChannel  -GroupId $Team.GroupId -DisplayName "NewChannel_Webinar_2022_02"}
+
 
 
 # Remove a specific user from all Teams
@@ -179,16 +184,20 @@ $Teams = Get-Team
 foreach ($Team in $Teams) { Remove-TeamUser -GroupId $Team.GroupId -User peter.gabriel@kraichgau-touristik.de -Role Member }
 
 
+
 # Remove specific Teams
-$Teams = Get-Team -DisplayName testest
+$Teams = Get-Team |Where-Object Displayname -Like Test*
 foreach ($Team in $Teams) { Remove-Team -GroupId $Team.GroupId}
 
+
 Remove-Team -GroupId 59d04b2f-9f79-4ee3-984f-bde6025a9cbd
+
 #endregion
 
 #region MESSAGE IN A BOTTLE - THE POLICE
 # Push messages to Teams channels
-$WebhookURL = 'https://xxxx.webhook.office.com/webhookb2/xxxxxxxx/IncomingWebhook/xxx/xxxx'
+
+$WebhookURL = 'https://scriptrunner1.webhook.office.com/webhookb2/xxxx/IncomingWebhook/bd0b6d30754f4c9d816f1952d95ec79d/xxxx'
 $Message = "Please be kind and stay healthy"
 $Title = "Our daily message $(Get-date)"
 $MessageColor = "green"
@@ -200,7 +209,7 @@ SendMessage2Channel -WebhookURL $WebhookURL -Message $Message -Title $Title -Mes
 
 Param(
     [ValidateRange(1,10)]
-    [int]$ThresholdValue = 2,
+    [int]$ThresholdValue = 1,
     [bool]$Archived
 )
 
@@ -227,6 +236,7 @@ try{
     
     if($SRXEnv) {
         $SRXEnv.ResultMessage = $result
+        Write-Output $result
     }
     else{
         Write-Output $result
@@ -243,7 +253,7 @@ finally{
 #region (NOT) BREAKING THE LAW - JUDAS PRIEST
 # Configure settings in Teams
 
-Get-Team | Set-Team -AllowGiphy $true -AllowStickersAndMemes $false -AllowAddRemoveApps $false -AllowGuestDeleteChannels $false -AllowDeleteChannels $false
+Get-Team | Set-Team -AllowGiphy $true -AllowStickersAndMemes $false -AllowAddRemoveApps $false -AllowGuestDeleteChannels $false -AllowDeleteChannels $false -
 Get-Team | Set-Team -AllowGiphy $false
 
 
@@ -284,11 +294,3 @@ Start-Process "https://lp.scriptrunner.com/en/teams-cheat-sheet"
 #Ready-to-use PowerShell scripts for Microsoft Teams use cases
 Start-Process "https://github.com/scriptrunner/ActionPacks/tree/master/O365/MS-Teams"
 #endregion
-
-#Archive Teams
-Set-TeamArchivedState -GroupId 33a5febc-9087-4adf-b684-4d12477edf01 -Archived:$true
-
-Get-Team | Where-Object Archived -EQ $true
-
-$user = get-MgUser -Filter "DisplayName eq '<User Name>'"
- get-MgUserJoinedTeam -UserId $user.Id
