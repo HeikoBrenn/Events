@@ -22,6 +22,12 @@ Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
 ![alt text](https://lp.scriptrunner.com/hubfs/teams-cheat-sheet-lupe-1-1.png?width=1140&height=750&name=Mockup-Poster-500x760.png "Teams Cheet Sheat")
 
 
+<strong>Sample Active Directory PowerShell Snippets</strong> <br />
+https://github.com/HeikoBrenn/SamplePowerShellScripts/blob/master/ActiveDirectory_PowerShell_Snippets.ps1
+
+<strong>Sample Exchange PowerShell Snippets</strong> <br />
+https://github.com/HeikoBrenn/SamplePowerShellScripts/blob/master/ManageExchangeOnline.ps1
+
 <strong>Ready-to-use PowerShell Scripts</strong> <br />
 You don't know how to start your PowerShell journey or you are looking for some scripting inspiration?
 Take a look at our ScriptRunner ActionPacks on github.
