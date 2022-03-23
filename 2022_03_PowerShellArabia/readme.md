@@ -7,7 +7,7 @@ https://linkedin.com/in/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_02_WelshAzureUserGroup/ScriptRunner_Session_WelshAzureUG.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_03_PowerShellArabia/ScriptRunner_Session_PS_Arabia.pdf
 
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
