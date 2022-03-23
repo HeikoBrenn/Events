@@ -2,6 +2,8 @@
 Heiko.brenn@scriptrunner.com<br />
 https://twitter.com/heikobrenn<br />
 https://linkedin.com/in/heikobrenn<br />
+
+<strong>Book an individual demo session with me:</strong> <br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
