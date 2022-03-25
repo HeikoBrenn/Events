@@ -9,6 +9,9 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 <strong>The session presentation:</strong></br>
 https://github.com/HeikoBrenn/Events/blob/master/2022_03_PowerShellArabia/ScriptRunner_Session_PS_Arabia.pdf
 
+<strong>The session recording:</strong></br>
+https://youtu.be/w1c_VgdsyDE
+
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
 <br>https://lp.scriptrunner.com/en/powershell-poster
