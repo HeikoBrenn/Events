@@ -1,8 +1,9 @@
 <strong>Get in touch with me for more information:</strong> <br />
 Heiko.brenn@scriptrunner.com<br />
 https://twitter.com/heikobrenn<br />
-https://linkedin.com/in/heikobrenn<br />
-https://www.youtube.com/channel/UCBbbh0DRawQDc_oFPrO9mfQ/videos
+https://linkedin.com/in/heikobrenn<br /><br />
+[Heiko's music videos](https://www.youtube.com/channel/UCBbbh0DRawQDc_oFPrO9mfQ/videos)<br/>
+[Heiko's ScriptRunner/PowerShell videos](https://www.youtube.com/channel/UCYg-lXXcRSc4RGpx1-klNDA)
 
 <strong>Book an individual ScriptRunner demo session with me:</strong> <br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
@@ -11,7 +12,7 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 https://github.com/HeikoBrenn/Events/blob/master/2022_03_PowerShellArabia/ScriptRunner_Session_PS_Arabia.pdf
 
 <strong>The session recording:</strong></br>
-https://youtu.be/w1c_VgdsyDE
+TBA
 
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
