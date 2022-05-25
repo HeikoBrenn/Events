@@ -12,7 +12,7 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 https://github.com/HeikoBrenn/Events/blob/master/2022_05_NYUG/ScriptRunner_NYUG_2022.pdf
 
 <strong>The session recording:</strong></br>
-TBA
+https://www.youtube.com/watch?v=ywK7Qv02uoE
 
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
