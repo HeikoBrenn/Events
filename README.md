@@ -1,6 +1,9 @@
 # My Session Recordings
 Here you find a list of my recorded session.
 
+## 2022/05: Session for the New York PowerShell User Group
+https://www.youtube.com/watch?v=ywK7Qv02uoE
+
 ## 2022/03: Session for the PowerShell Community Arabia
 https://youtu.be/w1c_VgdsyDE
 
