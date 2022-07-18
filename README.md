@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=ywK7Qv02uoE
 ## 2022/03: Session for the PowerShell Community Arabia
 https://youtu.be/w1c_VgdsyDE
 
+## 2022/02: Jonny Chipz - In Conversation with Heiko Brenn
+https://www.youtube.com/watch?v=4roBlaQkarI
+
 ## 2022/02: Session for Inn-Salzach PowerShell User Group (IN GERMAN)
 https://www.youtube.com/watch?v=dnGNxOmUM_0
 
