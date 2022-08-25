@@ -1,4 +1,4 @@
-<strong>Get in touch with me for more information:</strong> <br />
+<strong>Get in touch. Let's automate.</strong> <br />
 Heiko.brenn@scriptrunner.com<br />
 https://twitter.com/heikobrenn<br />
 https://linkedin.com/in/heikobrenn<br /><br />
