@@ -9,10 +9,17 @@ https://linkedin.com/in/heikobrenn<br /><br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_08_GlasgowAzureUG/ScriptRunner_Session_GlasgowAzureUG.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_09_Cloud8Summit/ScriptRunner_2022_09_Cloud8_GetRidOfTasks.pdf
 
 <strong>The session recording:</strong></br>
 TBA
+
+<strong>All PowerShell goodies</strong> <br />
+Get our PowerShell poster, Teams PowerShell cheat sheet, Exchange PowerShell cheat sheet and our PowerShell security e-book.
+<br>https://lp.scriptrunner.com/en/powershell-goodies
+
+![alt text](https://lp.scriptrunner.com/hs-fs/hubfs/Mockup-Poster-500x760.png?width=1140&height=750&name=Mockup-Poster-500x760.png "PowerShell Poster")
+
 
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
