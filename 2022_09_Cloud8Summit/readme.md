@@ -14,12 +14,9 @@ https://github.com/HeikoBrenn/Events/blob/master/2022_09_Cloud8Summit/ScriptRunn
 <strong>The session recording:</strong></br>
 TBA
 
-<strong>All PowerShell goodies</strong> <br />
+<strong>Get your PowerShell goodies</strong> <br />
 Get our PowerShell poster, Teams PowerShell cheat sheet, Exchange PowerShell cheat sheet and our PowerShell security e-book.
 <br>https://lp.scriptrunner.com/en/powershell-goodies
-
-![alt text](https://lp.scriptrunner.com/hs-fs/hubfs/Mockup-Poster-500x760.png?width=1140&height=750&name=Mockup-Poster-500x760.png "PowerShell Poster")
-
 
 <strong>PowerShell Cheat Sheet</strong> <br />
 Get our PowerShell cheat sheet poster for your (home) office wall at
@@ -33,6 +30,12 @@ Manage Teams with PowerShell like a Rockstar with this eight-pages cheat sheet.
 
 ![alt text](https://lp.scriptrunner.com/hubfs/teams-cheat-sheet-lupe-1-1.png?width=1140&height=750&name=Mockup-Poster-500x760.png "Teams Cheet Sheat")
 
+<strong>Get your Exchange PowerShell Cheat Sheet</strong> <br />
+Manage Exchange with PowerShell like a Rockstar with this eight-pages cheat sheet.
+<br>https://lp.scriptrunner.com/en/exchange-cheat-sheet<br>
+
+![alt text](https://lp.scriptrunner.com/hubfs/exchange-cheat-sheet-NEW-lupe1-1.png?width=1140&height=750&name=Mockup-Poster-500x760.png "Teams Cheet Sheat")
+https://lp.scriptrunner.com/hubfs/exchange-cheat-sheet-NEW-lupe1-1.png
 
 <strong>Sample Active Directory PowerShell Snippets</strong> <br />
 https://github.com/HeikoBrenn/SamplePowerShellScripts/blob/master/ActiveDirectory_PowerShell_Snippets.ps1
