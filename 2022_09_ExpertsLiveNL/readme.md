@@ -9,7 +9,7 @@ https://linkedin.com/in/heikobrenn<br /><br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_09_Cloud8Summit/ScriptRunner_2022_09_Cloud8_GetRidOfTasks.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_09_ExpertsLiveNL/ScriptRunner_2022_09_ExpertsLiveNL_UnlockThePowerOfPowerShell.pdf
 
 <strong>The session recording:</strong></br>
 TBA
