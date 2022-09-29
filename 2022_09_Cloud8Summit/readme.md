@@ -12,7 +12,7 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 https://github.com/HeikoBrenn/Events/blob/master/2022_09_Cloud8Summit/ScriptRunner_2022_09_Cloud8_GetRidOfTasks.pdf
 
 <strong>The session recording:</strong></br>
-TBA
+https://youtu.be/sB3UFSwiTz4
 
 <strong>Get your PowerShell goodies</strong> <br />
 Get our PowerShell poster, Teams PowerShell cheat sheet, Exchange PowerShell cheat sheet and our PowerShell security e-book.
