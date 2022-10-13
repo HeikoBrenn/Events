@@ -43,6 +43,9 @@ https://github.com/HeikoBrenn/SamplePowerShellScripts/blob/master/ActiveDirector
 <strong>Sample Exchange PowerShell Snippets</strong> <br />
 https://github.com/HeikoBrenn/SamplePowerShellScripts/blob/master/ManageExchangeOnline.ps1
 
+<strong>Sample Teams PowerShell Snippets</strong> <br />
+https://github.com/HeikoBrenn/Events/blob/master/2022_01_TeamsCommunityDay/TeamsCommunityDay_PowerShell_Samples.ps1
+
 <strong>Ready-to-use PowerShell Scripts</strong> <br />
 You don't know how to start your PowerShell journey or you are looking for some scripting inspiration?
 Take a look at our ScriptRunner ActionPacks on github.
