@@ -9,7 +9,7 @@ https://linkedin.com/in/heikobrenn<br /><br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_10_NACS/NACS2022_ScriptRunner_AutomateDelegateO365Administration.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_10_VMUG_Session/ScriptRunner_2022_10_VMUG.pdf
 
 <strong>The session recording:</strong></br>
 TBA
