@@ -9,7 +9,7 @@ https://linkedin.com/in/heikobrenn<br /><br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2022_10_VMUG_Session/ScriptRunner_2022_10_VMUG.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2022_11_PowerShellArabia/ScriptRunner_AD_Webinar_2022_11.pdf
 
 <strong>The session recording:</strong></br>
 TBA
