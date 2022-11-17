@@ -12,7 +12,7 @@ https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 https://github.com/HeikoBrenn/Events/blob/master/2022_11_PowerShellArabia/ScriptRunner_AD_Webinar_2022_11.pdf
 
 <strong>The session recording:</strong></br>
-TBA
+https://www.youtube.com/watch?v=2GR4uT7e3NE
 
 <strong>Get your PowerShell goodies</strong> <br />
 Get our PowerShell poster, Teams PowerShell cheat sheet, Exchange PowerShell cheat sheet and our PowerShell security e-book.
