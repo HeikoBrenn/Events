@@ -14,6 +14,9 @@ https://github.com/HeikoBrenn/Events/blob/master/2023_05_ExpertsLiveNL/2023_05_E
 <strong>The session recording:</strong></br>
 TBA
 
+<strong>4sysops ScriptRunner product review</strong></br>
+https://4sysops.com/archives/scriptrunner-portal-edition-r5new-query-configuration-and-action-configuration/
+
 <strong>Get your PowerShell goodies</strong> <br />
 Get our PowerShell poster, Teams PowerShell cheat sheet, Exchange PowerShell cheat sheet and our PowerShell security e-book.
 <br>https://lp.scriptrunner.com/en/powershell-goodies
