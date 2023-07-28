@@ -8,7 +8,7 @@ https://linkedin.com/in/heikobrenn<br /><br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2023_05_ExpertsLiveNL/2023_05_ExpertsLiveNL.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2023_07_MEMUG/2023_MEMUG_ScriptRunner.pdf
 
 <strong>The session recording:</strong></br>
 TBA
