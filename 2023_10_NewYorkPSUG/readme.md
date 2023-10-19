@@ -1,7 +1,8 @@
 <strong>Get in touch. Let's automate.</strong> <br />
 Heiko.brenn@scriptrunner.com<br />
 https://linkedin.com/in/heikobrenn<br /><br />
-[Heiko's music videos](https://www.youtube.com/channel/UCBbbh0DRawQDc_oFPrO9mfQ/videos)<br/>
+https://twitter.com/heikobrenn<br /><br />
+
 [Heiko's ScriptRunner/PowerShell videos](https://www.youtube.com/channel/UCYg-lXXcRSc4RGpx1-klNDA)
 
 <strong>Book an individual ScriptRunner demo session with me:</strong> <br />
