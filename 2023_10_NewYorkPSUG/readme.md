@@ -1,7 +1,7 @@
 <strong>Get in touch. Let's automate.</strong> <br />
 Heiko.brenn@scriptrunner.com<br />
 https://linkedin.com/in/heikobrenn<br />
-https://twitter.com/heikobrenn<br /><br />
+https://twitter.com/heikobrenn<br />
 
 [Heiko's ScriptRunner/PowerShell videos](https://www.youtube.com/channel/UCYg-lXXcRSc4RGpx1-klNDA)
 
