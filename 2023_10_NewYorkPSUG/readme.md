@@ -2,7 +2,6 @@
 Heiko.brenn@scriptrunner.com<br />
 https://linkedin.com/in/heikobrenn<br />
 https://twitter.com/heikobrenn<br />
-
 [Heiko's ScriptRunner/PowerShell videos](https://www.youtube.com/channel/UCYg-lXXcRSc4RGpx1-klNDA)
 
 <strong>Book an individual ScriptRunner demo session with me:</strong> <br />
