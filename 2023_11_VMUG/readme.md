@@ -8,7 +8,7 @@ https://twitter.com/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2023_10_NewYorkPSUG/2023_10_ScriptRunner_NYPSUG.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2023_11_VMUG/2023_11_ScriptRunner_VMUG_Session.pdf
 
 <strong>The session recording:</strong></br>
 TBA
