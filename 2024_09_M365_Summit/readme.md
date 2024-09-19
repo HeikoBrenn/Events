@@ -8,7 +8,7 @@ https://twitter.com/heikobrenn<br />
 https://lp.scriptrunner.com/meetings/heiko-brenn/demo-en
 
 <strong>The session presentation:</strong></br>
-https://github.com/HeikoBrenn/Events/blob/master/2024_01_Cloud8/2024_01_Cloud8_ManageM365LikeARockstar.pdf
+https://github.com/HeikoBrenn/Events/blob/master/2024_09_M365_Summit/2024_09_M365Summit_HeikoBrenn_10PowerShellOneLinerM365.pdf
 
 <strong>The session recording:</strong></br>
 TBA
